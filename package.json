@@ -1,0 +1,28 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "Auth API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "build": "sucrase ./src -d ./dist --transforms imports",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CollabCodeTech/auth.git"
+  },
+  "author": "CollabCode",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/CollabCodeTech/auth/issues"
+  },
+  "homepage": "https://github.com/CollabCodeTech/auth#readme",
+  "devDependencies": {
+    "eslint": "^6.7.0",
+    "husky": "^3.1.0",
+    "lint-staged": "^9.4.3",
+    "nodemon": "^2.0.1",
+    "prettier": "^1.19.1"
+  }
+}
